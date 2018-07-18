@@ -22,7 +22,8 @@
     
     <!-- android -->
     <platform name="android">
-
+        <framework src="com.android.support:support-compat:27.0.0" />
+        <framework src="com.android.support:support-v4:+" />
 
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
